@@ -1,0 +1,26 @@
+<div class="select-none h-screen bg-blue-normal 
+flex justify-center items-center text-slate-50 font-normal">
+    <div class="flex flex-col w-[25rem]">
+        <div class="bg-logo-solo h-[8rem] bg-no-repeat
+        bg-contain bg-center">
+        </div>
+
+        <form action="" class="flex flex-col mt-[2rem] ">
+            <label for="">Email or Username (case-sensitive)</label>
+            <input type="text" 
+            name="email_username" 
+            placeholder="Email or Username (case-sensitive)"
+            class="mt-1 bg-dark-blue py-1 px-3 focus:outline outline-[3px] transition-all outline-dark-blue">
+            <label for="" class="mt-5">Password</label>
+            <input type="password" 
+            name="password"
+            placeholder="Password"
+            class="mt-1 bg-dark-blue py-1 px-3 focus:outline outline-[3px] transition-all outline-dark-blue">
+            <input type="submit" value="Login" 
+            class="mt-5 bg-dark-blue w-[5rem] h-[2rem] 
+            rounded-md self-center hover:bg-light-blue transition-all">
+        </form>
+
+        <p class="mt-5 self-center">Don’t have a Habitica account? <span routerLink="/" class="font-semibold hover:underline">Sign up</span></p>
+    </div>
+</div>

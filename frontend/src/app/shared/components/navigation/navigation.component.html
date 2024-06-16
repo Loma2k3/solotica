@@ -1,0 +1,40 @@
+<nav class="select-none bg-header text-white 
+font-normal flex justify-between">
+    <div class="flex">
+        <div class="bg-shadow-army bg-contain bg-no-repeat
+        w-[10rem] bg-center"
+        routerLink="/"></div>
+        <ul class="font-bold flex ">
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Task, 'border-b-blue-normal': Task}"><span >Task</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Inventory, 'border-b-blue-normal': Inventory}"><span>Inventory</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Shops, 'border-b-blue-normal': Shops}"><span>Shops</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Party, 'border-b-blue-normal': Party}"><span>Party</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Group, 'border-b-blue-normal': Group}"><span>Group</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center" 
+            [ngClass]="{'border-b-[3.5px]': Challenges, 'border-b-blue-normal': Challenges}"><span>Challenges</span></li>
+
+            <li class="px-[1rem] hover:bg-blue-normal flex flex-col justify-center"
+            [ngClass]="{'border-b-[3.5px]': Help, 'border-b-blue-normal': Help}"><span>Help</span></li>
+        </ul>
+    </div>
+    
+    <div>
+        <ul class="font-bold flex">
+            <li class="p-[1rem] ">0</li>
+            <li class="p-[1rem]">2</li>
+            <li class="p-[1rem] text-slate-300 hover:text-slate-50 transition-all">refresh</li>
+            <li class="p-[1rem] text-slate-300 hover:text-slate-50 transition-all">message</li>
+            <li class="p-[1rem] text-slate-300 hover:text-slate-50 transition-all">info</li>
+        </ul>
+    </div>
+</nav>
